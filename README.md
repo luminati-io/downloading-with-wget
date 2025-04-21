@@ -307,10 +307,10 @@ A common challenge when using `wget` for downloads is potential request blocking
 
 Incorporating a proxy server with `wget` offers an effective solution for bypassing these limitations. A proxy functions as an intermediary between your system and the internet, routing your traffic through alternative IP addresses. This helps conceal your actual IP and circumvent many website restrictions.
 
-For detailed instructions, see our guide on [how to use a proxy with `Wget`](https://brightdata.com/how-tos/wget-proxy).
+For detailed instructions, see our guide on [how to use a proxy with `Wget`](https://brightdata.com/blog/how-tos/wget-proxy).
 
 ## Summary
 
 While `wget` has advantages over the Python `requests` library, you still need proxy services to overcome anti-bot measures that websites employ.
 
-For premium proxy services trusted by Fortune 500 companies and over 20,000 customers worldwide, consider Bright Data and their extensive range of [proxy solutions](https://brightdata.com/proxy-types).
+For premium proxy services trusted by Fortune 500 companies and over 20,000 customers worldwide, consider Bright Data and their extensive range of [proxy services](https://brightdata.com/proxy-types).
