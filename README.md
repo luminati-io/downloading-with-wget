@@ -23,7 +23,7 @@ This guide explores wget, a robust command-line utility for retrieving files thr
 
 ## Advantages of Wget Over Python's requests Package
 
-There are compelling reasons to incorporate `wgen` it into Python projects instead of relying on libraries like [requests](/faqs/python-requests/what-is-requests-used-for):
+There are compelling reasons to incorporate `wgen` it into Python projects instead of relying on libraries like [requests](https://brightdata.com/faqs/python-requests/what-is-requests-used-for):
 
 - Broader protocol support compared to requests
 - Ability to continue downloads after interruptions
@@ -36,7 +36,7 @@ There are compelling reasons to incorporate `wgen` it into Python projects inste
 - Support for background/unattended download operations
 - Smart re-download decisions based on file timestamps during mirroring
 - Recursive downloading of linked resources to specified depth levels
-- Built-in compliance with robots.txt directives (learn more in our [robots.txt web scraping guide](/blog/how-tos/robots-txt-for-web-scraping-guide))
+- Built-in compliance with robots.txt directives (learn more in our [robots.txt web scraping guide](https://brightdata.com/blog/how-tos/robots-txt-for-web-scraping-guide))
 
 These features represent just a portion of what makes `wget` exceptionally powerful compared to standard Python HTTP libraries. A particularly noteworthy feature is `wget`'s ability to navigate through HTML pages, following and downloading referenced files. This functionality makes it particularly suitable for web crawling operations.
 
@@ -299,7 +299,7 @@ Let's consider the advantages and disadvantages of using `wget` with Python.
 **Limitations**
 
 - Output consists of downloaded files rather than direct string variables usable within Python code
-- Requires additional parsers like [Beautiful Soup](https://brightdata.com/blog/how-tos/beautiful-soup-web-scraping) to extract specific elements from downloaded HTML
+- Requires additional parsers like [Beautiful Soup](https://brightdata.com/how-tos/beautiful-soup-web-scraping) to extract specific elements from downloaded HTML
 
 ## Enhancing Wget with Proxy Servers
 
@@ -307,7 +307,7 @@ A common challenge when using `wget` for downloads is potential request blocking
 
 Incorporating a proxy server with `wget` offers an effective solution for bypassing these limitations. A proxy functions as an intermediary between your system and the internet, routing your traffic through alternative IP addresses. This helps conceal your actual IP and circumvent many website restrictions.
 
-For detailed instructions, see our guide on [how to use a proxy with `Wget`](https://brightdata.com/blog/how-tos/wget-proxy).
+For detailed instructions, see our guide on [how to use a proxy with `Wget`](https://brightdata.com/how-tos/wget-proxy).
 
 ## Summary
 
